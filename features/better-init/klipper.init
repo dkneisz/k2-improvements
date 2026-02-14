@@ -128,6 +128,8 @@ copy_config()
                 config_dir=F012_CR0CN200400C10
             elif [ "$board" = "CR0CN240319C13" ]; then
                 config_dir=F012_CR0CN240319C13
+            elif [ "$board" = "CR0CN200400C10" ]; then
+                config_dir=F012_CR0CN200400C10
             else
                 config_dir=
             fi
